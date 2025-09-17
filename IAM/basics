@@ -18,11 +18,19 @@ policy structure:
     Action
     Resource  
 Policy at group level will be inherited by all users in a group
-
-   
-
 Least privilage principle -> dont give more permission than user needs
 
+To access AWS, three options:
+  1. aws management console, protected by password
+  2. aws CLI, protected by access keys
+        direct access to public apis of aws services
+        can develop scripts to manage your resources
 
+  3. asw SDK, for code/programming, by access key
+        embedded within application
+        enables access programatically
+        language specific apis
+
+access keys are managed by users, created from console.
 
 
