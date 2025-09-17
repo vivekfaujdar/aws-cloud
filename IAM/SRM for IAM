@@ -1,0 +1,14 @@
+shared responsibility mode for IAM
+AWS->
+    Infrastructure (global network security)
+    Configuration and vulnerability analysis
+    compliance validation
+
+YOU->
+    USERS, groups, roles policices management and monitoring
+    enables mfa on all accounts
+    rotate all your keys often
+    use iam tools to apply appropriate permissions
+    analyze access patterns & review permission
+
+    
