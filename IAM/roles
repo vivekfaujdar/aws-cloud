@@ -1,0 +1,5 @@
+Some aws services will need to perform actions on your behalf; 
+to do so, we will assign permissions to aws services with IAM roles
+
+just like user but htey are intended to be used not by phusical person but a service
+
