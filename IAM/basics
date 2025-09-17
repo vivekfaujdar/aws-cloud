@@ -1,6 +1,27 @@
-
 AWS Identity and Access Management (IAM) is a web service that helps you securely control access to AWS resources.
 Global service
+
+root account created by default shouldnt be used or shared
+
+users-> people in organisation, can be grouped
+Groups cant contain other groups
+users can belong to multiple groups
+
+users or groups can be assigned JSON documents called policies
+policy structure:
+  Version
+  Id
+  Statement
+    Sid
+    Effect :  Allow/Deny
+    Principle: user/account/role
+    Action
+    Resource  
+Policy at group level will be inherited by all users in a group
+
+   
+
+Least privilage principle -> dont give more permission than user needs
 
 
 
