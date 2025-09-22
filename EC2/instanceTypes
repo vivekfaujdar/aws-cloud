@@ -1,0 +1,18 @@
+Each instance type is a predefined configuration of:
+- vCPUs (virtual CPUs)
+- Memory (RAM)
+- Storage
+- Network performance
+They’re grouped into families, each optimized for specific workloads. Choosing the right type ensures your app runs efficiently without overpaying.
+
+🔍 EC2 Instance Families 
+| General Purpose              | (t2, t3, m5, m6) |  | 
+| Compute Optimised            | (c5, c6) |  | 
+| Memory optimised             | (r5, r6) |  | 
+| Accelerated Compute          | (p3, g4, g5) |  | 
+| Storage optimised            | (i3, d2) |  | 
+| HPC high performance compute | (hpc6id, hpc6a) |  | 
+
+
+website -> EC2Instances.info
+
