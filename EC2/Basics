@@ -1,0 +1,7 @@
+Elastic Compute Cloud -> Infra as a Service
+Capabilities like
+  renting virtual machines (EC2)
+  storing data on virtual drives(EBS)
+  Distributing load across machines(ELB)
+  Scaling services using auto-scaling group (ASG)
+
