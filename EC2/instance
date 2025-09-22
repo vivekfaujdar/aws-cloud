@@ -1,0 +1,41 @@
+what?
+  Basically, you rent a virtual server in aws to 
+1. Instance = running copy->  Yes, an instance is basically a running copy of something (like an object in Java is a running copy of its class definition).
+
+2. EC2 instance = copy of what?
+  An EC2 instance is a running copy of an Amazon Machine Image (AMI).
+so what's AMI = the blueprint/template. It includes:
+  The Operating System (Linux, Windows, etc.)
+  Pre-installed software (if you want, e.g., MySQL, Apache, Docker)
+
+Configuration details.
+EC2 Instance = one live, running “copy” of that AMI, backed by CPU, memory, storage, and networking from AWS’s physical servers.
+
+3. Not exactly a copy of GPU/OS
+  It’s not a copy of a GPU (though you can attach GPUs to EC2 instances).
+  It’s not just a copy of an OS, but rather a copy of a full virtual machine image (OS + environment + configuration).
+
+can i make an instance without AMI? or is it a prerequisite to make it?
+  No, you cannot launch an EC2 instance without an AMI (or some kind of boot template).
+
+Why?
+Every instance needs to know: Which operating system to run (Linux, Windows, etc.). Which initial software/configurations should be there. That “blueprint” is the Amazon Machine Image (AMI).
+
+But…
+
+You have a few options:
+  Use AWS-provided AMIs – e.g., Amazon Linux, Ubuntu, Windows.
+  Use community/marketplace AMIs – pre-configured with tools like WordPress, MySQL, etc.
+  Create your own custom AMI – if you want your own setup baked in.
+  Launch from a snapshot – even here, AWS still wraps it as an AMI under the hood.
+
+So an EC2 instance is not purely an “instance of an AMI.” It’s more precise to say: ✅ An EC2 instance is a running virtual machine created from an AMI and additional launch configurations.
+
+Other Configurations (not part of AMI) 
+When you launch an EC2 instance, you need more than just the OS. You decide:
+1. Instance type → how much CPU, RAM, GPU, etc.
+2. Storage (EBS volumes) → how big the disk is, SSD/HDD, etc.
+3. Networking (VPC, subnet, security group, IP) → where the instance lives and how it connects.
+4. IAM Role → what permissions the instance has.
+5. User data → startup scripts. (only runs once at first start)
+6. Key pair → login credentials.
