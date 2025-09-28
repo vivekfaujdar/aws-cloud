@@ -12,7 +12,9 @@ USED FOR:
 
 CORE FEATURES:
   Durability: 99.99999999999% (11 nines)
-  Ava: highly available
+    means howmany times an object is going to be lost by aws s3
+    if you store 1,00,00,000(10 million) objects oyou can on avg expect to incur loss of single object once every 10,000 years
+  Ava: highly available, varies depending on staorage class
   Scalability: virtually unlimited storage
   Storage classes: 
       standard
