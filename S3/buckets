@@ -11,3 +11,10 @@ objects have key-> FULL path : prefix + object name
 max object size 5TB(5000 GB)
 if uploading more than 5gb: must use "multi-part upload" 
 
+QUES: WHAT are objects not composed of?
+a key  ------------------------------> full path of the object within the bucket
+b value     ----------------------------> is the content stored within the object
+c access keys
+d metadata   -------------------> set of name-value pairs associated with the object
+
+ans - access keys
