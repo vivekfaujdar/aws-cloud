@@ -14,3 +14,6 @@ SNOW FAMILY:
     storage optimised
     compute optimised 
   snow mobile: a truck sized data ceter on wheels to move exabytes of data
+
+NOTE: data transfer IN to amazon S3 is free.
+
