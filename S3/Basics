@@ -1,13 +1,29 @@
-Basically an object storage service
+Basically an object storage service (not file storage like in traditional system)
+
 Data is stored as objects in buckets
 
-Is it a global service? --- NO its a reginal service;
+Is it a global service? --- NO its a regional service, buckets are created in a specific aws region
 
-Core Features:
+USED FOR:
+  HOsting a static website
+  backup and restore
+  big data for analytics
+  data lake for machine learning
+
+CORE FEATURES:
   Durability: 99.99999999999% (11 nines)
   Ava: highly available
   Scalability: virtually unlimited storage
-  Storage classes: standard, intelligent, glacier
+  Storage classes: 
+      standard
+      intellgent tiering
+      standard IA (infrequent access)
+      Glacier
   versioning
   Lifecycle policies: automate moving data to cheaper storage
+  Access Control: you can make data private ublic restricted with fine-grainied permissions; through bucket policy, iam policy, Block Public Access, Encryption
+  Data consistancy: Strong read-after-write consistency
+
+PAYING MODEL:
+  pay for storage used; Requests(put,get,list); Data transfer out (to internet or other region)
 
