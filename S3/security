@@ -1,0 +1,10 @@
+USER-BASED-> IAM
+
+RESORCE-BASED:
+  bucket policy: JSON based policy
+  object access control list
+  bucket acl
+
+ENCRYPTION: using encryption keys
+
+NOTE: an IAM principal can access if IAM permissions ALLOW it OR the resources policy allows it AND there's no explicit DENY
