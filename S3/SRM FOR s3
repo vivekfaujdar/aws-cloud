@@ -1,0 +1,13 @@
+AWS
+  infra
+  configuration and vulnerability analysis
+  compliance vallidation
+
+USER:
+  s3 versioning
+  logging and monitoring
+  data encryption at rest and in transit
+  storage classes
+  replication setup
+  bucket policies
+  
