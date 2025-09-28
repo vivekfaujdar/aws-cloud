@@ -1,4 +1,5 @@
 USER-BASED-> IAM
+  IAM ACCESS ANALYZER for s3: insures only intended people have access to your s3 buckets
 
 RESORCE-BASED:
   bucket policy: JSON based policy
