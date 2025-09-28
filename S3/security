@@ -6,5 +6,8 @@ RESORCE-BASED:
   bucket acl
 
 ENCRYPTION: using encryption keys
+  1. server side encryption (by dafault)
+  2. client side encryption done on client by the client
+both are ava in aws
 
 NOTE: an IAM principal can access if IAM permissions ALLOW it OR the resources policy allows it AND there's no explicit DENY
