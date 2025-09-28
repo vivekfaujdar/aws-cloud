@@ -1,0 +1,16 @@
+it is a data-transfer service, not a part of s3 but highly integraed with s3
+which uses physical hardware appliances to move large amounts of data in and out of aws.
+
+why used ?
+  large scale datamigration
+  bandwidth limitation
+  edge computing
+  disaster recovery and backups
+  data transfer out of aws
+
+SNOW FAMILY:
+  snowcone: smallest 8tb 
+  snow edge larger 50-80 tb 
+    storage optimised
+    compute optimised 
+  snow mobile: a truck sized data ceter on wheels to move exabytes of data
