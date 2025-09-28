@@ -22,7 +22,7 @@ CORE FEATURES:
       standard IA (infrequent access)
       Glacier
   versioning
-  Lifecycle policies: automate moving data to cheaper storage
+  Lifecycle rules: automate moving data to cheaper storage
   Access Control: you can make data private ublic restricted with fine-grainied permissions; through bucket policy, iam policy, Block Public Access, Encryption
   Data consistancy: Strong read-after-write consistency
 
