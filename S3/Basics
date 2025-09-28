@@ -1,0 +1,13 @@
+Basically an object storage service
+Data is stored as objects in buckets
+
+Is it a global service? --- NO its a reginal service;
+
+Core Features:
+  Durability: 99.99999999999% (11 nines)
+  Ava: highly available
+  Scalability: virtually unlimited storage
+  Storage classes: standard, intelligent, glacier
+  versioning
+  Lifecycle policies: automate moving data to cheaper storage
+
