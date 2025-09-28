@@ -1,4 +1,4 @@
-s3 allows storing objects in the buckets
+s3 allows storing objects in the buckets (no concepts of directories in 
 
 globally unique name
 defined at reginal level even though there name is unique axross all regions
@@ -7,6 +7,7 @@ naming convention----
 
 
 OBJECTS
-
-
+objects have key-> FULL path : prefix + object name
+max object size 5TB(5000 GB)
+if uploading more than 5gb: must use "multi-part upload" 
 
