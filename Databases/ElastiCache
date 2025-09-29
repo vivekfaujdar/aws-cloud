@@ -1,1 +1,8 @@
+In AWS, ElastiCache is a fully managed in-memory caching service that helps speed up applications by reducing the load on databases and improving response times.
+
+It mainly supports two open-source caching engines:
+
+Redis → A powerful in-memory key-value store that supports advanced data structures, pub/sub messaging, persistence, clustering, and replication.
+
+Memcached → A simpler, high-performance, distributed memory object caching system (good for straightforward caching use cases).
 
