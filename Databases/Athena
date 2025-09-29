@@ -1,1 +1,36 @@
+What is Amazon Athena?
+
+Serverless, interactive query service that lets you run SQL queries directly on data stored in S3.
+
+No servers or clusters to manage.
+
+Pay only for the amount of data scanned.
+
+
+
+---
+
+Key Features
+
+Serverless → you don’t provision compute or storage.
+
+SQL-based → supports standard ANSI SQL queries.
+
+Works with various formats → CSV, JSON, Parquet, ORC, Avro, etc.
+
+Integration → works with QuickSight (BI), Glue (data catalog), EMR, Redshift Spectrum.
+
+Fast → good for ad-hoc analysis of large datasets.
+
+---
+
+Exam Tip (AWS Practitioner / Associate)
+
+If you see:
+
+“Run SQL queries on data in S3 without managing servers” → Athena.
+
+“Massive SQL-based data warehouse” → Redshift.
+
+“Big data frameworks (Hadoop/Spark)” → EMR.
 
