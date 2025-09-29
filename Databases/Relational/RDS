@@ -3,3 +3,5 @@ uses sql language
 allows to create db in cloud managed by aws
 Storage backed by EBS
 BUT you cant SSH into your instances
+
+REPLICAS
