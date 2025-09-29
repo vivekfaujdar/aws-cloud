@@ -1,1 +1,29 @@
+What is Amazon Neptune?
+
+Fully managed graph database service in AWS.
+
+Designed for applications that need highly connected data and relationships.
+
+Supports two graph models:
+
+Property Graph (query with Gremlin)
+
+RDF / W3C standard (query with SPARQL)
+
+
+
+
+---
+
+Key Features
+
+Fully managed → AWS handles backups, patching, scaling, and replication.
+
+High performance & low latency → optimized for graph queries.
+
+Highly available → multi-AZ replication with automatic failover.
+
+Secure → VPC, encryption at rest & in transit, IAM integration.
+
+Integration → works with Lambda, SageMaker, QuickSight, and other AWS services.
 
