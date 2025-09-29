@@ -54,3 +54,52 @@ If you see:
 
 “Cache layer to speed up database” → Answer is ElastiCache.
 
+
+What is DAX (DynamoDB Accelerator)?
+
+DAX = DynamoDB Accelerator
+
+It’s a fully managed, in-memory cache for DynamoDB.
+
+Think of it like ElastiCache, but purpose-built for DynamoDB.
+
+
+
+---
+
+Key Points about DAX
+
+Purpose: Reduce read latency from milliseconds (DynamoDB normal) → microseconds (DAX).
+
+Caching layer: Stores results of DynamoDB queries (like GetItem, Query).
+
+Fully compatible: Uses the same API calls as DynamoDB, so you don’t need to change much code.
+
+Cluster-based: Runs as a managed cluster in your VPC.
+
+High availability: Can be deployed with replicas across multiple AZs.
+
+Use case: Read-heavy or bursty workloads (e.g., gaming leaderboards, e-commerce product catalog).
+
+
+
+---
+
+When to Use DAX
+
+If your app is read-heavy and you want microsecond response times.
+
+If you don’t want to manage your own caching layer (like Redis or Memcached).
+
+If your workload requires millions of reads per second with very low latency.
+
+
+
+---
+
+Exam Tip (AWS Practitioner / Associate)
+
+If you see “How to speed up DynamoDB reads?” → Answer: DAX.
+
+If you see “How to speed up RDS/Aurora or general database reads?” → Answer: ElastiCache.
+
