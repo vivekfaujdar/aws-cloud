@@ -1,0 +1,5 @@
+like aurora is AWS IMPLEMENTATION of posetgres and mysql, similarly it is same for MongoDB
+
+used to store query and index JSON data
+fully managed and highly available with replication across 3 az
+automatically grows in increment of 10 gb
