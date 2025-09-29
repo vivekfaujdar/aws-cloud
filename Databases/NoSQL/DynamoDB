@@ -103,3 +103,11 @@ If you see “How to speed up DynamoDB reads?” → Answer: DAX.
 
 If you see “How to speed up RDS/Aurora or general database reads?” → Answer: ElastiCache.
 
+What are DynamoDB Global Tables?
+
+A multi-region, multi-master replication feature for DynamoDB.
+
+Lets you deploy a single DynamoDB table across multiple AWS Regions, and keep them in sync automatically.
+
+low latency
+active active replication 
