@@ -4,4 +4,16 @@ allows to create db in cloud managed by aws
 Storage backed by EBS
 BUT you cant SSH into your instances
 
-REPLICAS
+RDS DEPLOYMENTS:
+READ REPLICAS: for read scalabilitY
+  can create upto 15 read replicas
+  data is only written to main db
+
+MULTI-AZ
+  failover in case of AZ outage
+  can have only 1 other az as failover
+MULTI-REGION
+  in different regions
+  disaster recovery
+  local performance for global reads
+  replication cost!
