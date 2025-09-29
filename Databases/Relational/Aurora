@@ -1,0 +1,9 @@
+proprietary tecnology from AWS
+postgres and mysql are both supported by aurora DB
+AWS optimised cause more cloud native
+
+AMAZON AURORA SERVERSLESS
+  automated database instantiation and auto scaling based on actual uses
+  no capacity planning
+  least manages ovverehead
+  Pay-per-second
