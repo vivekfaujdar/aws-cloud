@@ -1,1 +1,56 @@
+A fully managed NoSQL database service in AWS.
+
+Stores data as key–value pairs and documents.
+
+Serverless – you don’t manage servers, AWS handles scaling, replication, backups.
+
+
+
+---
+
+Key Features
+
+NoSQL → Not relational, doesn’t use SQL joins or schemas.
+
+Fast & scalable → Single-digit millisecond latency, scales automatically to handle millions of requests per second.
+
+Highly available → Data is automatically replicated across multiple AZs in a region.
+
+Flexible schema → Each item in a table doesn’t need to have the same attributes.
+
+Integration with Lambda, API Gateway, Kinesis, etc. → good for serverless apps.
+
+Global Tables → Multi-region replication for worldwide apps.
+
+Streams → Capture changes in real time (good for event-driven apps).
+
+
+
+---
+
+Use Cases
+
+Gaming leaderboards.
+
+E-commerce product catalogs.
+
+IoT device data.
+
+Session management.
+
+Real-time analytics.
+
+
+
+---
+
+Exam Tip (AWS Practitioner / Associate)
+
+If you see:
+
+“Managed NoSQL, key-value store, millisecond latency, scales automatically” → Answer is DynamoDB.
+
+“Managed SQL database with complex queries/joins” → Answer is RDS or Aurora.
+
+“Cache layer to speed up database” → Answer is ElastiCache.
 
