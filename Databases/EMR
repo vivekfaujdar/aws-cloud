@@ -1,1 +1,33 @@
 
+What is Amazon EMR?
+
+Amazon Elastic MapReduce (EMR) is a big data processing service in AWS.
+
+It lets you process and analyze huge volumes of data (terabytes–petabytes) quickly and cost-effectively.
+
+It lets you create Hadoop clusters (Big data) to analyze and process vast amount of data 
+
+Uses open-source frameworks like:
+
+Apache Hadoop
+
+Apache Spark
+
+Presto
+
+Hive
+
+HBase
+
+Flink
+
+
+
+
+---
+
+Key Features
+
+Managed cluster of EC2 instances → AWS sets up Hadoop/Spark clusters for you.
+
+Can process data stored in S3, DynamoDB, HDFS, or local disks.
