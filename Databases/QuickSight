@@ -1,1 +1,26 @@
 
+What is Amazon QuickSight?
+
+Business Intelligence (BI) service in AWS.
+
+Lets you create interactive dashboards, visualizations, and reports from your data.
+
+Fully managed, serverless, and scalable.
+
+
+
+---
+
+Key Features
+
+Data sources → connects to Redshift, RDS, DynamoDB, S3, Athena, EMR, and more.
+
+Interactive dashboards → charts, graphs, heatmaps, maps.
+
+SPICE engine → Super-fast in-memory calculation engine for quick analytics.
+
+Collaboration → share dashboards with other users securely.
+
+ML insights → auto-detect anomalies and trends using built-in machine learning.
+
+Pay-per-session or subscription → cost-effective for scaling users.
