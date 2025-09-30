@@ -12,7 +12,7 @@ SNOW FAMILY:
   1. snowcone: smallest 8tb, suitable for small scale data transfer or edge computing but not ideal for petabytes 
   2. storage optimised: for large scale data migrations, provides high capacity storage petayte scale; offers local computing, enabling processing of data at edge before transfering it to aws 
   3. compute optimised: high perormance computing workload; not primarily for the data transfer but comppute intensive tasks at athe edge 
-  4. snow mobile: a truck sized data ceter on wheels to move exabytes of data; doest provide local computing capacity.
+  4. snow mobile: a truck sized data ceter on wheels to move exabytes of data; doesn't provide local computing capacity.
 
 NOTE: data transfer IN to amazon S3 is free.
 
