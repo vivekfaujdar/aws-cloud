@@ -1,2 +1,7 @@
 Managed ETL service 
 fully serverless
+
+✅ Exam Tip (AWS Practitioner / Architect Associate)
+AWS Glue is not a database itself. It’s a data integration + ETL service.
+If you see a question about automating schema discovery, building data catalogs, or running ETL without servers, the answer is usually AWS Glue.
+
