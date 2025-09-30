@@ -11,6 +11,7 @@ USED FOR:
   backup and restore
   big data for analytics
   data lake for machine learning
+    wtf is that? it's a centralised storage repository that stores all structured, semi structured and unstructured data in it's raw form, at any scale. s3 integrates with tools like Athena, glue, emr redshift for analytics. 
 
 CORE FEATURES:
   Durability: 99.99999999999% (11 nines)
