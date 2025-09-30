@@ -1,1 +1,91 @@
 database migration service 
+
+In AWS, DMS stands for Database Migration Service.
+
+It’s a managed service that helps you migrate databases quickly and securely into AWS with minimal downtime.
+
+
+---
+
+🔑 Key Points about AWS DMS:
+
+1. Purpose
+
+Used to migrate data from one database to another.
+
+Supports homogeneous migrations (e.g., Oracle → Oracle) and heterogeneous migrations (e.g., Oracle → MySQL, SQL Server → Aurora).
+
+
+
+2. Minimal Downtime
+
+DMS keeps the source database operational during migration.
+
+It continuously replicates changes (Change Data Capture – CDC) until cutover.
+
+
+
+3. Source & Target Databases Supported
+
+Sources: On-prem databases, RDS, EC2-hosted DBs, S3, etc.
+
+Targets: Amazon RDS, Aurora, Redshift, DynamoDB, S3, Kinesis, etc.
+
+
+
+4. Schema Conversion Tool (SCT)
+
+If you migrate between different engines (heterogeneous), you may need AWS Schema Conversion Tool (SCT) to convert schema & SQL code.
+
+
+
+5. Replication Types
+
+Full Load → One-time migration of existing data.
+
+Full Load + CDC → Migrate existing data + keep syncing changes.
+
+CDC Only → Migrate ongoing changes (useful for real-time replication).
+
+
+
+6. Serverless (managed)
+
+AWS manages replication instances (you just choose size).
+
+Handles failover, scaling, monitoring.
+
+
+
+
+
+---
+
+🔧 Common Use Cases:
+
+On-prem → AWS migrations (Oracle/SQL Server/MySQL → Aurora/RDS).
+
+Cross-region or cross-AZ replication for disaster recovery.
+
+Data lake building → replicate relational DBs into S3 for analytics.
+
+Migration to Redshift for data warehousing.
+
+
+
+---
+
+✅ Exam Tips:
+
+DMS ≠ Glue:
+
+DMS → For migrating/replicating data between databases.
+
+Glue → For ETL, transformation, and data cataloging.
+
+
+If question mentions minimal downtime migration → Answer is usually DMS.
+
+If heterogeneous migration → need DMS + SCT.
+
+
