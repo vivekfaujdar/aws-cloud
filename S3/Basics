@@ -17,7 +17,9 @@ CORE FEATURES:
   Durability: 99.99999999999% (11 nines)
     means howmany times an object is going to be lost by aws s3
     if you store 1,00,00,000(10 million) objects oyou can on avg expect to incur loss of single object once every 10,000 years
+
   Ava: highly available, varies depending on staorage class
+
   Scalability: virtually unlimited storage
   Storage classes: 
       standard
@@ -25,9 +27,13 @@ CORE FEATURES:
       standard IA (infrequent access)
       Glacier
   versioning
+
   Lifecycle rules: automate moving data to cheaper storage
+
   Access Control: you can make data private ublic restricted with fine-grainied permissions; through bucket policy, iam policy, Block Public Access, Encryption
-  Data consistancy: Strong read-after-write consistency
+
+  Data consistancy: Strong read-after-write consistency which means once you write or update ab object in db or storage system any subsequent read request will immediately return the latest version of that object
+
   Replication: same region or cross region, must enable versioning
 
 PAYING MODEL:
