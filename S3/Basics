@@ -4,6 +4,8 @@ Data is stored as objects in buckets
 
 Is it a global service? --- NO its a regional service, buckets are created in a specific aws region
 
+Is it serverless? -- yes. why ? -- bcz you don't have to manage any unlying infra for it. what does that mean... that's means. you don't choose ec2 instances for it, it scales automatically, it even trigger events like lambda etcc
+
 USED FOR:
   HOsting a static website
   backup and restore
